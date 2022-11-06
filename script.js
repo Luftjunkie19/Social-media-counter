@@ -7,7 +7,7 @@ socialMedia.forEach((media) => {
   const amountOf = +media.childNodes[7].getAttribute("data-amount");
 
   let counting = setInterval(() => {
-    number += 50;
+    number += 90;
 
     if (number >= amountOf) {
       number = amountOf;
