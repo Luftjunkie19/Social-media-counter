@@ -12,6 +12,7 @@ socialMedia.forEach((media) => {
     if (number >= amountOf) {
       number = amountOf;
       clearInterval(counting);
+      console.log(number);
       numberHolder.innerText = number;
     } else {
       number++;
